@@ -60,7 +60,7 @@ do
 	[ $OPTIND -gt $# ] && break
 done
 
-# Simple scraper that checks for existence of pages on a website.
+# Simple script that checks for existence of pages on a website.
 # Only works if the URL ends with a page identifier like "page=".
 if [ $START == "true" ]
 then
