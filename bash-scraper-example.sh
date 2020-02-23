@@ -3,13 +3,13 @@
 declare -a arr
 URLOPTION=""
 
-# add arguments to the array.
+# Add arguments to the array.
 for arg in $@
 do
 	arr+=($arg)
 done
 
-# throw this when the user doesn't give any options.
+# Throw this when the user doesn't give any options.
 if [ $# -eq 0 ]
 then
 	echo "You need options!"
@@ -34,7 +34,7 @@ done
 
 START="false"
 
-# The first while loop is put in place so that the getopts ignores any other arguments besides options.
+# The first while loop is put in place so that the getopts ignores any other arguments besides OPTIND.
 # The second while loop is for the getopts function. 
 while :;
 do
