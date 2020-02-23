@@ -2,7 +2,6 @@
 
 declare -a arr
 URLOPTION=""
-OPTIONS=0
 
 # add arguments to the array.
 for arg in $@
