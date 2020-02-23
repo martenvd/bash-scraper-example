@@ -48,7 +48,7 @@ do
 
 			h) 	echo "Usage:"
 				echo "$0 -h for help"
-				echo '$0 -u <url that ends with "page=" or something like that> to start scanning for pages on a website'
+				echo "$0 -u <url that ends with 'page=' or something like that> to start scanning for pages on a website"
 				exit 0
 				;;
 			
