@@ -51,8 +51,8 @@ do
 				echo '$0 -u <url that ends with "page=" or something like that> to start scanning for pages on a website'
 				exit 0
 				;;
-			*)
-				echo "Wrong argument, enter $0 -h for help!"
+			
+			*)	echo "Wrong argument, enter $0 -h for help!"
 				;;
 		esac
 	done
